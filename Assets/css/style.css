@@ -3,20 +3,30 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-color: #4e4e53;
-    color: #fff;
+    background-color: #3b5999;
+    color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
   }
 
-header h1 {
-
+body {
+  background-color: #fbfffb;
+  color: #000000;
+  padding: 0;
+  margin: 0;
 }
 
 .aboutme {
-  text-align: left;
-  font-family: sans-serif;
   font-size: 22px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+  align-content: center;
+}
+
+.aboutme h1 {
+  padding: 2%;
 }
 
   nav ul {
@@ -27,15 +37,11 @@ header h1 {
   }
 
   nav a {
-    color: #f50000;
+    color: #ffffff;
     font-weight: bold;
     text-decoration: none;
   }
 
   h1 {
     font-size: 200%
-  }
-
-  .card {
-
   }
