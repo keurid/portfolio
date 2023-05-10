@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 200%
+}
+
 .aboutme {
   font-size: 22px;
   display: grid;
@@ -27,25 +31,47 @@ body {
 
 .aboutme img{
   padding: 30px;
+  min-height: 100px;
+  min-width: 100px;
 }
 .aboutme h1{
   padding: 2%;
   text-underline-position:below ;
 }
 
-  nav ul {
+nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+   }
 
-  nav a {
+nav a {
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
-  }
+}
 
-  h1 {
-    font-size: 200%
-  }
+.footer {
+
+}
+
+.footer ul {
+  padding: 20px;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+.footer li {
+  display: inline;
+  text-align: center;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.footer h1 {
+  padding-bottom: 50px;
+}
